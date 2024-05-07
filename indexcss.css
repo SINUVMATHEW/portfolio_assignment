@@ -11,11 +11,16 @@ html, body
 	font-weight: 400;
 	background: #000000;
 	color: #fff;
+	
 }
 .container {
 	width: 1100px;
 	margin: 0px auto;
-	display: table;
+	/* background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXpoYTBkZ2JkcTdub2RyNmV2YXJwbTQ2M3JkMWZqMnU2cTRtbWdwciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8w61HSu6xQjoa2NzKN/giphy.gif);
+	display: table;background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center; */
 }
 .width-33 {
 	width: 33%;
@@ -42,7 +47,7 @@ html, body
 }
 
 .span-col {
-	color: #ffbf35;
+	color:  #DB4437;
 }
 
 nav {
@@ -85,8 +90,8 @@ nav a {
 	margin-top: 20px;
 	border-radius: 50%;
 	text-align: center;
-	border: 2px solid #ffbf35;
-	color: #ffbf35;
+	border: 2px solid #DB4437;
+	color: #DB4437;
 	margin-left: 10px;
 	height: 50px;
 	width: 50px;
@@ -97,4 +102,93 @@ nav a {
 	margin-top: 10%;
 	width: 100%;
 	margin-left: 10%;
+}
+
+
+.main-section {
+	width: 100%;
+	float: left;
+	padding: 110px 0px 110px 0px;
+}
+.width-100 {
+	width: 100%;
+	float: left;
+}
+.mt-20 {
+	margin-top: 20px;
+}
+.heading-text {
+	width: 100%;
+	float: left;
+	font-size: 35px;
+	text-align: center;
+	margin-bottom: 50px;
+	color:  #DB4437;
+}
+.about-img {
+	width: 100%;
+	padding: 0px 50px;
+	margin-top: 20px;
+}
+.about-us {
+	width: 100%;
+	float: left;
+	padding: 20px;
+}
+.about-us p {
+	font-size: 16px;
+	margin-top: 15px;
+	line-height: 27px;
+}
+table {
+	width: 100%;
+}
+table th,
+table td {
+	font-size: 16px;
+	text-align: left;
+	padding: 5px 0px;
+}
+
+
+.skill {
+	margin-top: 30px;
+	font-size: 17px;
+}
+
+.skill span {
+	float: right;
+}
+
+.skill div {
+	width: 100%;
+	float: left;
+	margin-top: 5px;
+	background: #e7e7e7;
+	border-radius: 10px;
+}
+
+.skill div span {
+	background: #DB4437;
+	height: 5px;
+	float: left;
+}
+
+div[role="progressbar"] {
+	color: #DB4437;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	width: 100px;
+	;
+	height: 100px;
+	;
+	border-radius: 50%;
+
+	place-items: center;
+	display: grid;
+
+	--pgPercentage: var(--value);
+	background: radial-gradient(closest-side, black 80%, transparent 0 99.9%, black 0),
+		conic-gradient(#DB4437 calc(var(--pgPercentage) * 1%), #ffe6af 0);
+
 }
